@@ -7,9 +7,7 @@ import { initializeApp } from 'firebase/app';
 import { getFirebaseConfig } from "./firebase-config.js"
 
 
-const firebaseAppConfig = getFirebaseConfig()
 
-initializeApp(firebaseAppConfig)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,3 +16,6 @@ root.render(
   </React.StrictMode>
 );
 
+const firebaseAppConfig = getFirebaseConfig()
+
+initializeApp(firebaseAppConfig)
