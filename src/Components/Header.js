@@ -4,7 +4,7 @@ const Header = (props) => {
 
     return (
         <div className="headerContainer">
-            <h1>Where's Skywaldoker?</h1>
+            <h1>Where's That Character</h1>
         </div>
     )
 }
